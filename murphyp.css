@@ -13,7 +13,7 @@ body {
 	align: left;
 }
 
-/* top-menu */
+/*top-menu -----------------------------------------*/
 /* http://cses.ucsd.edu/byow/tutorial3/tutorial3.html */
 .top-menu ul {
     list-style-type: none;
@@ -42,7 +42,7 @@ body {
     text-decoration: underline;
 }
 
-/*body*/
+/*body -----------------------------------------*/
 h1 {
     color: Black;
     text-align: center;
@@ -50,10 +50,18 @@ h1 {
     margin-top: 35px;
 }
 
+h2 {
+    color: Black;
+    text-align: center;
+    text-decoration: italic;
+    font-family: "Arial";
+    margin-top: 10px;
+}
+
 p {
     color: black;
     font-family: "Arial";
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #about-box {
@@ -73,11 +81,64 @@ p {
 #contact {
     text-decoration: none;
     font-family: "Arial";
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
 }
 
 .name {
-    font-size: 14px;
+    font-size: 16px;
     color: #1f0d45;
+}
+
+.main-text li {
+    font-size: 16px;
+    font-family: "Arial";
+    margin-left: 25px;
+}
+
+.collaborator {
+    width: 850px;
+    margin: 50px;
+    background-color: #cccccc;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 2px;
+}
+
+.collaborator h4 {
+    font-family: "Arial";
+    font-size: 20px;
+    color: Black;
+}
+
+/*footer -----------------------------------------*/
+.footer {
+    width: 1000px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
 }
