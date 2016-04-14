@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     background-color: #333;
     font-family: "Arial";
+    font-size: 20px;
 }
 
 .top-menu li {
@@ -51,22 +52,31 @@ h1 {
 p {
     color: black;
     font-family: "Arial";
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #about-box {
     float: right;
     margin-left: 25px;
+    margin-bottom: 25px;
     margin-top: 10px;
-    width: 400px; 
+    width: 420px; 
     background-color: #cccccc;
 }
 .my-photo {
 	float: right;
+    margin: 10px;
     margin-bottom: 25px;
 }
 
-.degrees {
+#contact {
     text-decoration: none;
-    font-family: "Times";
+    font-family: "Arial";
+    font-size: 12px;
+    margin: 20px;
+}
+
+.name {
+    font-size: 14px;
+    color: #1f0d45;
 }
