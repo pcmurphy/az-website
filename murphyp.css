@@ -1,0 +1,72 @@
+/*murphyp.css*/
+
+body {
+    background-color: #f2f2f2;
+}
+
+.center {
+    margin: auto;
+    width: 1000px;
+}
+/* top photo */
+.top-photo img {
+	align: left;
+}
+
+/* top-menu */
+/* http://cses.ucsd.edu/byow/tutorial3/tutorial3.html */
+.top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Arial";
+}
+
+.top-menu li {
+    float: left;
+}
+
+.top-menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-menu li a:hover {
+    background-color: #111;
+}
+
+/*body*/
+h1 {
+    color: Black;
+    text-align: center;
+    font-family: "Arial";
+}
+
+p {
+    color: black;
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+#about-box {
+    float: right;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 400px; 
+    background-color: #cccccc;
+}
+.my-photo {
+	float: right;
+    margin-bottom: 25px;
+}
+
+.degrees {
+    text-decoration: none;
+    font-family: "Times";
+}
