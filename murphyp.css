@@ -74,7 +74,7 @@ p {
     margin-bottom: 25px;
     margin-top: 10px;
     width: 420px; 
-    background-color: #cccccc;
+    background-color: #a7adc0;
 }
 .my-photo {
 	float: right;
@@ -101,10 +101,19 @@ p {
 }
 
 .project-box{
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     width: 980px;
-    background-color: #cccccc;
+    background-color: #a7adc0;
     padding: 10px;
+    overflow: auto;
+    /*height: 500px;*/
+}
+
+h3{
+    margin-top: 0px;
+    font-family: "Arial";
+    margin-bottom: 5px;
+    margin-top: 25px;
 }
 
 .project-box p{
@@ -114,6 +123,18 @@ p {
 .project-box-photo{
     float: left;
     margin-right: 10px;
+    width: 350px;
+}
+
+.project-box-photo p{
+    font-family: "Arial";
+    font-size: 10px;
+    color: Black;
+}
+
+.project-box-text{
+    float: right;
+    width: 620px;
 }
 
 .collaborator {
@@ -127,6 +148,31 @@ p {
     font-family: "Arial";
     font-size: 20px;
     color: Black;
+}
+
+.project-box-caption{
+    float: left;
+    width: 350px;
+    font-family: "Arial";
+    font-size: 12px;
+    color: Black;
+}
+
+.publication-box{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 475px; 
+    background-color: #a7adc0;
+    padding: 10px;
+}
+
+.presentation-box{
+    float: right;
+    margin-top: 10px;
+    width: 475px; 
+    background-color: #a7adc0;
+    padding: 10px;
 }
 
 /*footer -----------------------------------------*/
