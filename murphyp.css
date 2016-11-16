@@ -159,19 +159,19 @@ h3{
 }
 
 .publication-box{
-    float: left;
+    /*float: left;*/
     margin-right: 10px;
     margin-top: 10px;
     width: 980px; 
-    background-color: #a7adc0;
+    /*background-color: #c4cbe3; a7adc0;*/
     padding: 10px;
 }
 
 .presentation-box{
-    float: right;
+    /*float: right;*/
     margin-top: 10px;
-    width: 475px; 
-    background-color: #a7adc0;
+    width: 980px; 
+    background-color: #a7ddc0;
     padding: 10px;
 }
 
